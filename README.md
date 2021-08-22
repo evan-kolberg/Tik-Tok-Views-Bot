@@ -18,6 +18,8 @@ on a Mac, chromedriver might not run since it has no trusted developer, so look 
 When all that is done, please edit lines 6 and 8 and put in the correct info. Line 6 is the location to chromedriver (it can be in your project folder) and
 line 8 is your video URL.
 
+You can also use a scheduler to repeat this programm infinintly. This way, you don't have to run it over and over again.
+
 As always, enjoy this project and try not to get banned 🙂
 
 
