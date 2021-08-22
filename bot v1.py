@@ -3,9 +3,9 @@ from time import sleep
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-driver = webdriver.Chrome(executable_path=r'/Users/-----------/PycharmProjects/tik-tok-bot/chromedriver',options=chrome_options) #Change it
+driver = webdriver.Chrome(executable_path=r'C:\Users\ekpro\PycharmProjects\Tik Tok Bot\chromedriver.exe',options=chrome_options) #Change it
 
-vidUrl = "https://vm.tiktok.com/ZMR2R9kUH" 
+vidUrl = "https://vm.tiktok.com/ZMR2R9kUH"
 
 def setup():
     global tabs
@@ -30,13 +30,11 @@ def views():
             sleep(2)
             driver.switch_to.window(driver.window_handles[tabs - i - 1])
             if tabs - i - 1 == 0:
-                for i in range(tabs):
-                    driver.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 'W')
+                driver.close()
             sleep(2)
     except:
         print("AN ERROR OCCURED. THIS WAS MOST LIKELY DUE TO CONNECTING ISSUES. PLEASE RESTART ME.")
-        for i in range(tabs):
-            driver.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 'W')
+        driver.close()
 
 if __name__ == "__main__":
     setup()
