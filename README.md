@@ -13,7 +13,7 @@ https://chromedriver.chromium.org/downloads.
 this terminal command here: pip install selenium. 
 
 Oh, one last thing: Make sure chromedriver is added to path if you are working on a Windows pc. If you are working 
-on a Mac, chromedriver isn't a trusteddeveloper so look here for what to do with that https://stackoverflow.com/questions/60362018/macos-catalinav-10-15-3-error-chromedriver-cannot-be-opened-because-the-de.
+on a Mac, chromedriver might not run since it has no trusted developer, so look here for what to do with that https://stackoverflow.com/questions/60362018/macos-catalinav-10-15-3-error-chromedriver-cannot-be-opened-because-the-de.
 
 When all that is done, please edit lines 6 and 8 and put in the correct info. Line 6 is the location to chromedriver (it can be in your project folder) and
 line 8 is your video URL.
