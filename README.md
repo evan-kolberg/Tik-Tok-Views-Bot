@@ -19,3 +19,9 @@ When all that is done, please edit lines 6 and 8 and put in the correct info. Li
 line 8 is your video URL.
 
 As always, enjoy this project and try not to get banned 🙂
+
+
+
+
+*This will not work forever because the company will most likely change their website. When that happends, this code will stop working. Feel free to use this as a refrence
+*sheet for selenium commands.
