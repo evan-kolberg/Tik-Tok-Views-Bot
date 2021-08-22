@@ -33,7 +33,7 @@ def views():
                 driver.close()
             sleep(2)
     except:
-        print("AN ERROR OCCURED. THIS WAS MOST LIKELY DUE TO CONNECTING ISSUES. PLEASE RESTART ME.")
+        print("AN ERROR OCCURED. THIS WAS MOST LIKELY DUE TO CONNECTION ISSUES. PLEASE RESTART ME.")
         driver.close()
 
 if __name__ == "__main__":
