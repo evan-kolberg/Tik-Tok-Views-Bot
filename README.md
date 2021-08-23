@@ -1,6 +1,4 @@
 # Tik-Tok-Views-Bot
-This took me over 6 hours, please credit me if you use this anywhere
-
 
 You will need a couple of things before running this file.
 
