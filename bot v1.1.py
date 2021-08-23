@@ -35,7 +35,6 @@ def views():
             print("Tab",i,"was successful!")
             if i == 10:
                 driver.quit()
-
     except:
         print("AN ERROR OCCURED. THIS WAS MOST LIKELY DUE TO CONNECTION ISSUES. TERMINATING PROGRAM...")
         sleep(2)
