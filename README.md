@@ -13,10 +13,11 @@ this terminal command here: pip install selenium.
 Oh, one last thing: Make sure chromedriver is added to path if you are working on a Windows pc. If you are working 
 on a Mac, chromedriver might not run since it has no trusted developer, so look here for what to do with that https://stackoverflow.com/questions/60362018/macos-catalinav-10-15-3-error-chromedriver-cannot-be-opened-because-the-de.
 
-When all that is done, please edit lines 7 and 9 and put in the correct info. Line 6 is the location to chromedriver (it can be in your project folder) and
-line 8 is your video URL.
+To get a LOT of views quick, run 5-9 units of this program in parrallel. When you run 9 units of this program, you
+are running 99 tabs for one cycle (which is about 2.5 minutes). 100 views X 99 tabs = 9,900 views in 2.5 minutes.
+Thats 237,600 views per hour!!! Companies can charge hundreds of dollars for what this program can do for FREE.
+Also, not to brag, but this is one of the few working tik tok bots on github.
 
-You can also use a scheduler to repeat this programm infinintly. This way, you don't have to run it over and over again.
 
 As always, enjoy this project and try not to get banned 🙂
 
