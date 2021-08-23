@@ -3,7 +3,6 @@ from time import sleep
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-from selenium.webdriver.support import expected_conditions as EC
 driver = webdriver.Chrome(executable_path=r'C:\Users\ekpro\PycharmProjects\Tik Tok Bot\chromedriver.exe',options=chrome_options)
 
 vidUrl = "https://vm.tiktok.com/ZMR2TNcHF"
