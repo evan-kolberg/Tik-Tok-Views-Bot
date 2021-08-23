@@ -32,7 +32,7 @@ def views():
             sleep(5)
             driver.find_element_by_xpath("/html/body/div[1]/main/div/article/div/div[1]/div/div/div[2]/div/div/div[1]/div[3]/div[1]/div/p").click()
             sleep(2)
-            print("Tab#",i,"was successful!")
+            print("Tab",i,"was successful!")
             if i == 10:
                 driver.quit()
 
