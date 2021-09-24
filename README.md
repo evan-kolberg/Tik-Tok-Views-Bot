@@ -20,7 +20,7 @@ Also, not to brag, but this is one of the few working tik tok bots on github.
 
 
 As always, enjoy this project and try not to get banned 🙂
-
+![views](https://user-images.githubusercontent.com/70989484/134603117-4037cf3d-6155-4747-b129-f37f848aae38.PNG)
 
 
 
