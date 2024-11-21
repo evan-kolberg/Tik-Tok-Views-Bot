@@ -13,7 +13,7 @@ that corresponds to the version of Chrome on your computer. For example, my Chro
 You can check your version by typing chrome://version in the search bar. Get the driver from this link [here](https://chromedriver.chromium.org/downloads). 
 
 2. Next, you will need to install the Selenium library for Python. Do it using
-this terminal command: pip installs selenium. 
+this terminal command: pip install selenium. 
 
 Oh, one last thing: Make sure Chromedriver is added to the path environmental variable if you are working on a Windows pc. If you are working 
 on a Mac, Chromedriver will need additional permissions to run as it is not a trusted developer. Look [here](https://stackoverflow.com/questions/60362018/macos-catalinav-10-15-3-error-chromedriver-cannot-be-opened-because-the-de) for info on how to navigate this.
